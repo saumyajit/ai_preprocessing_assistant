@@ -1,0 +1,79 @@
+/* AI Assistant Modal Styling */
+#ai-assistant-modal .modal-dialog {
+    max-width: 800px;
+}
+
+#ai-assistant-modal .modal-body {
+    padding: 20px;
+}
+
+#ai-assistant-modal .form-grid {
+    display: grid;
+    gap: 15px;
+}
+
+#ai-assistant-modal .form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+#ai-assistant-modal label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#ai-assistant-modal .textarea-flexible {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-family: monospace;
+    resize: vertical;
+}
+
+#ai-assistant-modal #generate-btn {
+    margin-top: 10px;
+    padding: 8px 20px;
+}
+
+#ai-assistant-modal #loading {
+    display: inline-flex;
+    align-items: center;
+    color: #0068b5;
+}
+
+#ai-assistant-modal .list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#ai-assistant-modal .list-table th,
+#ai-assistant-modal .list-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#ai-assistant-modal .list-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+#ai-assistant-modal #apply-steps {
+    margin-top: 15px;
+}
+
+/* AI Assistant Button */
+#ai-assistant-btn {
+    margin-right: 10px;
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+#ai-assistant-btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
